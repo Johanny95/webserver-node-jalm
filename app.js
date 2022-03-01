@@ -15,8 +15,8 @@ app.use(express.static('public'));
 
 app.get('/', (req, res) => {
   res.render('home', {
-      nombre: 'Johanny Lopez',
-      titulo : 'Curso de node'
+      nombre: 'TeamPro',
+      titulo : 'NextLine'
   } );
 });
 
@@ -26,15 +26,15 @@ app.get('/hola-mundo', (req, res) => {
 
 app.get('/generic',  (req, res) => {
   res.render('generic', {
-      nombre: 'Johanny Lopez',
-      titulo : 'Curso de node'
+      nombre: 'TeamPro',
+      titulo : 'NextLine'
   } );
 })
 
 app.get('/elements',  (req, res) => {
  res.render('elements', {
-      nombre: 'Johanny Lopez',
-      titulo : 'Curso de node'
+      nombre: 'TeamPro',
+      titulo : 'NextLine'
   } );
 })
 
